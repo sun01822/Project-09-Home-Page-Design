@@ -1,4 +1,4 @@
-`#RRGGBB`
+
 # Project-09-Home-Page-Design
 
 

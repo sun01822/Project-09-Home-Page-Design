@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.item1{
+	grid-area: item1;
+	background-color: rgb(128, 101, 101);
+}
+
+.item2{
+	grid-area: item2;
+	background-color: rgb(128, 101, 101);
+}
+
+.item3{
+	grid-area: item3;
+	background-color: rgb(190, 146, 146);
+}
+
+.content1{
+	display: grid;
+	grid-template-areas: 'item1 item2 item2 item2 item2 item2 item2 item2 item2 item2 item2 item2 item2'
+						 'item3 item3 item3 item3 item3 item3 item3 item3 item3 item3 item3 item3 item3';
+	
+}
+
+.content1 > div{
+	padding: 10px;
+	
+}
+
+.item2 h1{
+	font-size: 2.8em;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 0.6em;
+	margin-left: -175px;
+	margin-bottom: 30px;
+}
+
+.item3 ul{
+	list-style-type: none;
+}
+
+.item3 li{
+	display: inline;
+	padding: 5px 30px;
+	border: 1px solid white;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	margin: 0 30px 40px 30px;
+	font-size: 1.1em;
+}
+
+.item3{
+	display: flex;
+	justify-content: center;
+}
+
+.item3 select{
+	color: white;
+	background-color: rgb(190, 146, 146);
+	font-weight: bold;
+	outline: none;
+	border: none;
+	font-size: 0.9em;
+	margin: 0px 5px 0 0;
+}
+
+.content1 a{
+	text-decoration: none;
+	color: white;
+}
+
+.item11{
+	grid-area: item11;
+}
+
+.item12{
+	grid-area: item12; 
+}
+
+.item13{
+	grid-area: item13;
+}
+
+.content2{
+	display: grid;
+	grid-template-areas: 'item11 item12 item13';
+	gap: 20px;
+	background-color: #483775;
+}
+
+.item11 a{
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+}
+
+.item11 ul{
+	list-style-type: none;
+}
+
+.item11 li{
+	border: 1px solid #9b0b0b;
+	font-size: 1.2em;
+	text-align: justify;
+	padding: 2px 50px;
+}
+
+.item12 h1{
+	margin: auto;
+	color: white;
+	text-align: center;
+	margin: 1.2em .8em;
+	background-color:rgb(93, 52, 243);
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 5px 10px;
+}
+
+.item12 p{
+	font-size: 1.1em;
+	padding: 0.5em;
+	text-align: justify;
+}
+
+.para1, .para2{
+	background-color: white;
+	color: black;
+	border-radius: 20px;
+	margin-bottom: 50px;
+}
+
+.item13{
+	margin: 20px 15px;
+}
+
+.about{
+	margin: 2.5em 40px;
+	color: black;
+}
+
+.about h1{
+	text-align: center;
+	padding: 20px;
+	background-color:aquamarine;
+	border-radius: 25px;
+	font-size: 2.2em;
+}
+
+.about p{
+	margin: 1em 1.2em;
+	text-align: justify;
+	font-size: 1.1em;
+}
+
+.button{
+	display: flex;
+	float: right;
+	margin-right: 50px;
+	padding: 20px;
+}
+
+#submit{
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 8px 15px;
+	border-radius: 15px;
+	color: white;
+	background-color: rgb(205, 2, 36);
+}
+
+.footer{
+	margin-top: 200px;
+	text-align: center;
+	background-color: rgb(31, 163, 31);
+	padding: 40px;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+}
